@@ -7,7 +7,6 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 
 
-const categories = require('./data/categories.json');
 const courses = require('./data/categories.json');
 
 
@@ -16,9 +15,9 @@ app.get('/', (req, res) => {
     res.send('courses api is running');
 });
 
-app.get('/courses-categories', (req, res) => {
-    res.send(categories)
-});
+app.get('/courses', (req, res) => {
+    res.send(courses);
+})
 app.get('/courses/:id', (req, res) => {
     const id = req.params.id;
     const selectedCourse = courses.find(course => course.id === id);
@@ -26,5 +25,5 @@ app.get('/courses/:id', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('courses running in port', port);
+    console.log(`courses running in port ${port}`);
 })
