@@ -1,26 +1,44 @@
 [
     {
         "id": "01",
-        "name": "Programming in C language"
+        "name": "Programming in C language",
+        "CourseBody": "C is a procedural programming language. It was initially developed by Dennis Ritchie as a system programming language to write operating system. The main features of C language include low-level access to memory, simple set of keywords, and clean style, these features make C language suitable for system programming like operating system or compiler development.",
+        "photoURL": "https://fr-images.tuto.net/tuto/thumb/648/288/132681.jpg",
+        "price": 100
     },
     {
         "id": "02",
-        "name": "Programming in C++ language"
+        "name": "Programming in C++ language",
+        "CourseBody": "In this course, we will learn the mechanics of editing and compiling programs in C++. We will begin with a discussion of the essential elements of C++ programming: variables, loops, expressions, functions, and string class. Then, we will cover the basics of object-oriented programming: classes, inheritance, templates, exceptions, and file manipulation. We will then review function and class templates and the classes that perform output and input of characters to/from files. This course will also cover namespaces, exception handling, and preprocessor directives. In the last part of the course, we will learn some slightly more sophisticated programming techniques that deal with data structures such as linked lists and binary trees.",
+        "photoURL": "https://www.interviewbit.com/blog/wp-content/uploads/2022/01/Features-of-C-1024x499.png",
+        "price": 120
     },
     {
         "id": "03",
-        "name": "Programming in java language"
+        "name": "Programming in java language",
+        "CourseBody": "Popular for its versatility and ability to create a wide variety of applications, learning Java opens up your possibilities when coding. With it, you’ll be able to develop large systems, software, and mobile applications — and even create mobile apps for Android. Learn important Java coding fundamentals and practice your new skills with real-world projects.you gain two many skills from this course.For example :Build core programming concepts,Learn object-oriented concepts,Create Java projects",
+        "photoURL": "https://www.softzone.es/app/uploads-softzone.es/2020/09/Programar-Java.jpg",
+        "price": 125
     },
     {
         "id": "04",
-        "name": "Programming in javascript language"
+        "name": "Programming in javascript language",
+        "CourseBody": "JavaScript (js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages. It is an interpreted, full-fledged programming language that enables dynamic interactivity on websites when applied to an HTML document. It was introduced in the year 1995 for adding programs to the webpages in the Netscape Navigator browser. Since then, it has been adopted by all other graphical web browsers. With JavaScript, users can build modern web applications to interact directly without reloading the page every time. The traditional website uses js to provide several forms of interactivity and simplicity",
+        "photoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK_i-cprBxHTxYuiM4GecCn1Y2L-2BDh_04hQoypHC&s",
+        "price": 130
     },
     {
         "id": "05",
-        "name": "Programming in python language"
+        "name": "Programming in python language",
+        "CourseBody": "Python is a very popular general-purpose interpreted, interactive, object-oriented, and high-level programming language. Python is dynamically-typed and garbage-collected programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL).",
+        "photoURL": "https://unihub.hfcc.com.tw/static/upload/article/c6324e6e-278b-4811-8275-9884bdd0e6cf/99668973-7137-403d-9c7b-0fdfed11688c/Five-Most-Powerful-Open-Source-Python-Libraries-For-Machine-Learning.jpg",
+        "price": 90
     },
     {
         "id": "06",
-        "name": "Programming in PHP language"
+        "name": "Programming in PHP language",
+        "CourseBody": "PHP is a programming and scripting language to create dynamic interactive websites. WordPress is written using PHP as the scripting language. Just like WordPress, PHP is also open source.PHP is a server side language, which means that it runs on your web hosting server. Whenever someone visits your website, their browser contacts your server to request the page. The PHP code runs on the server, and generates an HTML page to send to the visitor. The visitor then sees the HTML page in their browser. They can’t see the PHP script because it’s only on the hosting server.",
+        "photoURL": "https://www.nrhosting.com/wp-content/uploads/2021/01/Full-Form-of-PHP.png",
+        "price": 115
     }
 ]
